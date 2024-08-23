@@ -19,43 +19,11 @@ hrmap
 Şirket yetkilisi, **"hrmap"** tarafına başvurur "**CompanyOwner**" rolünde hesap oluşturulur. Admin, şirket adına hesap açtıktan sonra, sisteme giriş izni verilir. "**CompanyOwner**" rolündeki kullanıcı, aynı şirkette çalışan "**CompanyManager**" rolündeki kullanıcıları sisteme ekler ve erişim izni verir. "**CompanyManager**", personelleri sisteme ekleyip ilk giriş parolalarını göndererek onların sistemi kullanmalarını sağlar. 
 
 Personeller, izin taleplerini **oluşturabilecek** ve masraflarını yöneticilerine **onaya gönderebilecektir**. Yöneticiler ise gelen talepleri **onaylayıp reddedebilecektir**. Uygulama, tatil günleri, resmi tatiller, yaklaşan etkinlikler ve doğum günleri gibi bilgileri ana sayfada gösterecektir.
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
-</p>
-
-![Anasayfa](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2015.54.41.png)
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
-</p>
-
-![Login](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2015.58.15.png)
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
-</p>
-
-![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2015.58.43.png)
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
-</p>
-
-![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.40.42.png)
-
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
-</p>
-
-![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.41.29.png)
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.44.46.png" width=350 />
-</p>
-
 <p align="center" >
   <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
 </p>
+
+
 
 ### Kurulum
 **1.**
@@ -109,3 +77,51 @@ kullanıcısı ile **"Admin" rolünde** uygulamaya giriş yapabilirsiniz.
 **6.**
 **Tüm kullanıcılar**, yaklaşan personel doğum günlerini, yaklaşan şirket içi etkinlikleri, yaklaşan resmi tatilleri anasayfalarında görebileceklerdir.
 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+![Anasayfa](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2015.54.41.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+![Login](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2015.58.15.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2015.58.43.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.40.42.png)
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.41.29.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.44.46.png" width=350 />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2018.32.04.png" width=650 />
+</p>
+
+
+
+
+
+<p align="center" >
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
