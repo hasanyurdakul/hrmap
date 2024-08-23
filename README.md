@@ -34,3 +34,21 @@ Personeller, izin taleplerini **oluşturabilecek** ve masraflarını yöneticile
 </p>
 
 ![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2015.58.43.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.40.42.png)
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+![enter image description here](https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.41.29.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.44.46.png" width=350 />
+</p>
