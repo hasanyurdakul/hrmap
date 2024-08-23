@@ -52,3 +52,60 @@ Personeller, izin taleplerini **oluşturabilecek** ve masraflarını yöneticile
 <p align="center">
   <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/Screenshot%202024-08-23%20at%2016.44.46.png" width=350 />
 </p>
+
+<p align="center" >
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+### Kurulum
+**1.**
+```bash
+$ git  clone  https://github.com/hasanyurdakul/hrmap.git
+```
+**2.** 
+HRMS.API dizininde bulunan appsettings.json dosyasında MSSQL Connection Stringinizi giriniz.
+
+**3.**
+```bash
+$ cd HRMS.API
+$ dotnet restore
+$ dotnet run
+```
+**4.**
+```bash
+$ cd HRMS_Client
+$ npm install
+$ npm run dev
+```
+
+
+<p align="center" >
+  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />  <img src="https://raw.githubusercontent.com/hasanyurdakul/hrmap/main/Screenshots/logo-icon.png" width=20 />
+</p>
+
+### Akış
+
+
+**1.**
+Database başarıyla migrate edilmiş ve uygulamalar sorunsuz ayağa kalkmış ise, 
+```bash
+username:Admin
+password:Admin123.
+```
+kullanıcısı ile **"Admin" rolünde** uygulamaya giriş yapabilirsiniz.
+
+**2.**
+İlk olarak bir şirket kayıt edin. Ardından bu şirkete bir kullanıcı oluşturun. Oluşturduğunuz kullanıcı **CompanyOwner rolünde** olacaktır. Sistem, **otomatik bir parola** oluşturacak ve kullanıcının **mail adresine bu parolayı gönderecektir**.
+
+**3.**
+ **CompanyOwner** rolünde oluşturduğunuz kullanıcı ile giriş yapın. Yeni bir kullanıcı oluştur bölümünden bir kullanıcı oluşturun. Oluşturduğunuz kullanıcı **CompanyManager rolünde** olacaktır. **Şifre ve mail akışları önceki adımla aynıdır**.
+ 
+ **4.**
+ **CompanyManager** rolündeki kullanıcınız, **CompanyUser rolündeki yetkisiz kullanıcıları oluşturabilir**. Bu roldeki kullanıcılar, şirketteki **personellerinize** oluşturacağınız kullanıcılar olacaktır. CompanyManager rolündeki kullanıcınız, uygulama kullanıcısı oluşturmanın yanı sıra, personel listesine yeni personel ekleyebilir, personel bilgilerini görebilir, oluşturulmuş izin ve masraf taleplerini yönetebilir, şirket içi etkinlik oluşturabilir, yeni bir departman ve iş tanımı oluşturabilir.
+
+**5.**
+**CompanyUser** rolündeki kullanıcınız, iş arkadaşlarının iletişim bilgilerini ve kalan izin günlerini görebilir. İzin ve masraf **talebi** oluşturabilir. Onay veya red almış ya da hala sonuçlanmamış taleplerini sistem üzerinden görebilirler.
+
+**6.**
+**Tüm kullanıcılar**, yaklaşan personel doğum günlerini, yaklaşan şirket içi etkinlikleri, yaklaşan resmi tatilleri anasayfalarında görebileceklerdir.
+
