@@ -26,6 +26,9 @@ function UserEmployeeAssignForm() {
   const [nonUserEmployees, setNonUserEmployees] = useState([]);
   const [nonEmployeeUsers, setNonEmployeeUsers] = useState([]);
 
+  console.log(users);
+  console.log(nonUserEmployees);
+  console.log(nonEmployeeUsers);
   const getEmployees = async () => {
     await axios
       .get(`${apiBaseUrl}/Employee`, {
@@ -144,7 +147,7 @@ function UserEmployeeAssignForm() {
                     error={touched.userId && Boolean(errors.userId)}
                     className="flex flex-col items-center flex-nowrap gap-2 h-96 overflow-y-scroll border p-2 rounded-lg no-scrollbar border-secondary"
                   >
-                    {nonEmployeeUsers.map((user) => (
+                    {users.map((user) => (
                       <>
                         <FormControlLabel
                           key={user.id}

@@ -143,21 +143,6 @@ function LoginPage() {
                     )}
                   </Formik>
                 </div>
-                <h1 className="ml-3 mt-4 text-sm text-black dark:text-white text-center">
-                  Hesabın yok mu?
-                </h1>
-
-                <Button
-                  variant="outlined"
-                  startIcon={<Edit className="w-6 h-6" />}
-                  onClick={() => {
-                    navigate("/signup");
-                  }}
-                  disabled={isLoading}
-                  className="mt-5 text-base tracking-wide font-semibold bg-accent hover:bg-accentHover text-gray-100 w-full py-4 rounded-lg  transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none"
-                >
-                  <span className="ml-3"> Kayıt ol</span>
-                </Button>
 
                 <p className="mt-6 text-xs text-gray-600 text-center">
                   Giriş yaparak&nbsp;

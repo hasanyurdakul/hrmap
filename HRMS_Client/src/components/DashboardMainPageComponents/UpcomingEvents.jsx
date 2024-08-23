@@ -59,39 +59,35 @@ function UpcomingEvents() {
             <tbody className="text-sm font-medium ">
               {events.length > 0 &&
                 events.map((event, index) => (
-                  <div key={index}>
-                    <tr key={index}>
-                      <td className="p-2">
-                        <div className="flex items-center">
-                          <div className="text-gray-800 dark:text-gray-100 ">
-                            {event.eventName}
-                          </div>
+                  <tr key={index}>
+                    <td className="p-2">
+                      <div className="flex items-center">
+                        <div className="text-gray-800 dark:text-gray-100 ">
+                          {event.eventName}
                         </div>
-                      </td>
-                      <td className="p-2">
-                        <div className="text-left line-clamp-5 md:line-clamp-none">
-                          {event.eventDescription}
-                        </div>
-                      </td>
-                      <td className="p-2">
-                        <div className="text-left">
-                          {event.eventStartDate &&
-                            event.eventStartDate
-                              .split("T")[0]
-                              .replaceAll("-", "/")}
-                        </div>
-                      </td>
-                      <td className="p-2">
-                        <div className="text-left">
-                          {" "}
-                          {event.eventEndDate &&
-                            event.eventEndDate
-                              .split("T")[0]
-                              .replaceAll("-", "/")}
-                        </div>
-                      </td>
-                    </tr>
-                  </div>
+                      </div>
+                    </td>
+                    <td className="p-2">
+                      <div className="text-left line-clamp-5 md:line-clamp-none">
+                        {event.eventDescription}
+                      </div>
+                    </td>
+                    <td className="p-2">
+                      <div className="text-left">
+                        {event.eventStartDate &&
+                          event.eventStartDate
+                            .split("T")[0]
+                            .replaceAll("-", "/")}
+                      </div>
+                    </td>
+                    <td className="p-2">
+                      <div className="text-left">
+                        {" "}
+                        {event.eventEndDate &&
+                          event.eventEndDate.split("T")[0].replaceAll("-", "/")}
+                      </div>
+                    </td>
+                  </tr>
                 ))}
             </tbody>
           </table>
